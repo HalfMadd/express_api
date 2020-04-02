@@ -58,7 +58,7 @@ v1.delete('/message/:id', basicAuth, async (request, response) => {
 
 app.listen(3000, () => {
     console.log("Listening on port 3000");
-})
+});
 
 
 
